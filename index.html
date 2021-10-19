@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <title>Light Home Page-1</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        
+        <div class="row">
+            <div class="col">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">Light.</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Home
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Home Page 1</a>
+                                    <a class="dropdown-item" href="#">Home Page 2</a>
+                                    <a class="dropdown-item" href="#">Home Page 3</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Portifolio
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Portifolio V1</a>
+                                    <a class="dropdown-item" href="#">Portifolio V2</a>
+                                    <a class="dropdown-item" href="#">Portifolio V3</a>
+                                    <a class="dropdown-item" href="#">Portifolio Details</a>
+                                </div>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Blog
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Blog V1</a>
+                                    <a class="dropdown-item" href="#">Blog V2</a>
+                                    <a class="dropdown-item" href="#">Blog V3</a>
+                                    <a class="dropdown-item" href="#">Blog Details</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">About</a>
+                                    <a class="dropdown-item" href="#">Contact</a>
+                                    <a class="dropdown-item" href="#">Error 404</a>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col">
+                <div class="container">
+                    <div class="texto-meio">
+                        <h1>Awesome Portfolio Theme for you</h1>
+                        <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum
+                            est
+                            notare quam littera gothica etiam processus quam neil.</p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-sm-12">
+                <div id="myBtnContainer">
+                    <button class="btn active" onclick="filterSelection('all')"> All </button>
+                    <button class="btn" onclick="filterSelection('branding')"> Branding </button>
+                    <button class="btn" onclick="filterSelection('illustration')"> Illustration </button>
+                    <button class="btn" onclick="filterSelection('photography')"> Photography</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="col">
+
+                <div class="imageContent">
+
+                    <div class="row filterDiv branding">
+                        <div class=" image"><img src="images/branding/1.PNG" alt=""></div>
+                    </div>
+                    <div class="row filterDiv branding">
+                        <div class=" image"><img src="images/branding/2.PNG" alt=""></div>
+                    </div>
+                    <div class="row filterDiv branding">
+                        <div class=" image"><img src="images/branding/3.PNG" alt=""></div>
+                    </div>
+
+                    <div class="row filterDiv branding">
+                        <div class=" image"><img src="images/branding/4.PNG" alt=""></div>
+                    </div>
+                    <div class="row filterDiv branding">
+                        <div class=" image"><img src="images/branding/5.PNG" alt=""></div>
+                    </div>
+                    <div class="row filterDiv illustration">
+                        <div class=" image"><img src="images/illustration/6.PNG" alt=""></div>
+                    </div>
+
+                    <div class="row filterDiv illustration">
+                        <div class=" image"><img src="images/illustration/7.PNG" alt=""></div>
+                    </div>
+                    <div class="row filterDiv photography">
+                        <div class=" image"><img src="images/photography/8.png" alt=""></div>
+                    </div>
+                    <div class="row filterDiv photography">
+                        <div class=" image"><img src="images/photography/9.png" alt=""></div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+    </div>
+
+    </div>
+    </div>
+
+    </div>
+    </div>
+    </div>
+
+<br>
+<br>
+
+    <footer class="bg-light text-center text-lg-start ">
+
+        <div class="text-center p-3 footer2">
+            Light.
+            <br>
+            <p class="text-dark">Copyright 2016 - All Right Reserved. Made by Crazycafe
+
+            </p>
+          
+            <section class="mb-4">
+
+                <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button">
+                    <i class="bi bi-facebook"></i></a>
+
+
+                <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button">
+                    <i class="bi bi-twitter"></i></a>
+
+            </section>
+        </div>
+
+
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <script src="js/java.js"></script>
+</body>
+
+</html>
