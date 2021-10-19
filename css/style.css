@@ -2,6 +2,7 @@
   height: 100px;
   padding-left: 0px;
   padding-right: 0px;
+  background-color: #ffffff;
   width: auto;
   box-shadow: 0 5px 10px -2px #dddddd !important;
   text-align: right;
@@ -21,15 +22,14 @@
   position: relative;
 }
 
-.imageContent {
-  display: flex;
-  flex-direction: row;
-  justify-items: center;
-  flex-wrap: wrap;
- }
+html, body{
+  font-family: "Roboto Slab", serif !important;
+
+}
 
 .container {
-
+  padding-left: none;
+  padding-right: none;
   overflow: hidden;
 }
 
@@ -50,6 +50,11 @@ div.filterDiv {
   text-align: center;
   margin-bottom: 10px;
   
+}
+img{
+  max-width: 100%;
+  height: auto;
+
 }
 
 
@@ -105,7 +110,8 @@ div.filterDiv {
   .image {
     margin-top: 10px;
     margin-bottom: 10px;
-    max-width: none;
+    margin-left: 50px;
+   
     
   }
 }
